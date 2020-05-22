@@ -25,6 +25,16 @@
   z-index: 1;
 }
 
+.header__title {
+  width: 730px;
+  left: 64px;
+  display: flex;
+  flex-direction: column;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 700; /* можно проверить значение bold или от 100 до 900,где кратность по 100 */
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
