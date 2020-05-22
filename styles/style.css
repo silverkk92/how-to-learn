@@ -16,6 +16,15 @@
   /* выше установили ограничения для секции */
 }
 
+.logo_place_header {
+  height: 32px;
+  width: 183px;
+  top: 30px;
+  left: 64px;
+  position: absolute;
+  z-index: 1;
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
